@@ -18,4 +18,4 @@ const thoughtController = {
     getThoughtbyID({ params }, res) {
         Thought.findOne({ _id: params.id })
     }
-}
+} 
