@@ -6,6 +6,6 @@ const { builtinModules } = require('module');
 
 // adds prefix to routes
 router.use('/users', userRoutes);
-router.use('/comments', thoughtRoutes);
+router.use('/thoughts', thoughtRoutes);
 
 module.exports = router;

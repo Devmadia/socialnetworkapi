@@ -2,7 +2,7 @@
   "name": "socialnetworkapi",
   "version": "1.0.0",
   "description": "API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list using Express.js, MongoDB, and Mongoose ODM.",
-  "main": "server.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.29.0",
