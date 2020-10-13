@@ -20,7 +20,9 @@ Begin the usage of this application by downloading or running `git clone <remote
 ## Usage 
 The following video details a visual walk-through of the application API GET/POST/PUT/DELETE routes with Insomnia Core. 
 
-[My Video Walk-Through](https://drive.google.com/file/d/18HoV_u4-W-HmfqQDePNhSktaSWDKtjoS/view)
+[My Video Walk-Through](https://youtu.be/oOtSZoUPqG4)
+
+Available in HD playback.
 
 Demo Shots:
 
