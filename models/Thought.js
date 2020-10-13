@@ -35,15 +35,16 @@ const ReactionSchema = new Schema({
 
 const ThoughtSchema = new Schema({
     thoughtText: {
-        required: String,
+        type: String,
+        required: true,
         maxlength: 280,
         minlength: 1
     },
 
     createdAt: {
-        type: Date,
+        type: Date, 
         default: Date.now,
-        get: (createdAtVal) => moment(createAtVal).format('MMM DD, YYYY [at] hh:mm a')
+        get: (createdAtVal) => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
     },
 
     username: {
